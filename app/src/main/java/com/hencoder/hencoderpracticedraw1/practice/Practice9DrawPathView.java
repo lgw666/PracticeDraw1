@@ -31,10 +31,9 @@ public class Practice9DrawPathView extends View {
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-//        练习内容：使用 canvas.drawPath() 方法画心形
-        path.addArc(300,200,500,400,160,165);
-        path.arcTo(500,200,700,400,20,-165,false);
-        path.lineTo(500,545);
+        path.addArc(300,200,500,400,-225,225);
+        path.arcTo(500,200,700,400,-180,225,false);
+        path.lineTo(500, 542);// 向目标位置画直线
         canvas.drawPath(path,paint);
     }
 }
