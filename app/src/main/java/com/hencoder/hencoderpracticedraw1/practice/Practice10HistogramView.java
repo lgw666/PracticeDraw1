@@ -16,11 +16,9 @@ public class Practice10HistogramView extends View {
     public Practice10HistogramView(Context context) {
         super(context);
     }
-
     public Practice10HistogramView(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
     }
-
     public Practice10HistogramView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
