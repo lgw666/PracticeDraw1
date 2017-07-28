@@ -145,6 +145,13 @@ public class Practice11PieChartView extends View {
         return endX;
     }
 
+    /**
+     * 获取在饼图上结束画线的纵坐标
+     *
+     * @param startY 开始画线的纵坐标
+     * @param angle  角度
+     * @return 结束画线的纵坐标
+     */
     private float getEndDrawLinePointY(float startY, float angle) {
         float endY = mCircleXY;
         if (angle > 0) {
