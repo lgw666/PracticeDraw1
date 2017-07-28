@@ -117,7 +117,7 @@ public class Practice11PieChartView extends View {
      * @return 在饼图上开始画线的点的纵坐标
      */
     private float getStartDrawLinePointY(float y0, float angle) {
-        return (float) (y0 + mD / 2 * Math.sin(angle * 3.14 / 180));
+        return (float) (y0 + mD / 2 * Math.sin(angle * Math.PI / 180));
     }
 
     /**
